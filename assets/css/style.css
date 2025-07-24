@@ -3594,7 +3594,7 @@ kbd {
   margin: 0 10px;
 }
 .moving-section.style-2 {
-  color: #063232;
+  color: #5D3C81 ;
   font-weight: 900;
   font-size: 130px;
   text-transform: uppercase;
@@ -3875,7 +3875,7 @@ kbd {
 }
 .feature-card.style-2:hover {
   color: #fff;
-  background-color: #063232;
+  background-color: #5f1fb3;
 }
 .feature-card.style-2:hover ::after {
   background-color: #fff;

@@ -261,7 +261,7 @@
       const swiper = new Swiper(".ak-slider-hero-1", {
         loop: true,
         speed: 1500,
-        autoplay: false,
+        autoplay: { delay: 3000, disableOnInteraction: false },
         slidesPerView: 1,
         effect: "fade",
         runCallbacksOnInit: true,
@@ -275,7 +275,7 @@
       const swiper = new Swiper(".ak-slider-hero-2", {
         loop: true,
         speed: 1500,
-        autoplay: false,
+        autoplay: { delay: 3000, disableOnInteraction: false },
         slidesPerView: 1,
         runCallbacksOnInit: true,
         parallax: true,
@@ -293,7 +293,7 @@
       const swiper = new Swiper(".ak-slider-hero-3", {
         loop: true,
         speed: 1500,
-        autoplay: false,
+        autoplay: { delay: 3000, disableOnInteraction: false },
         slidesPerView: 1,
         runCallbacksOnInit: true,
         effect: "fade",
@@ -489,6 +489,26 @@
         speed: 1000,
         autoplay: true,
         slidesPerView: "auto",
+      });
+    }
+    if ($.exists('.brand-logo-slider')) {
+      new Swiper('.brand-logo-slider', {
+        loop: true,
+        speed: 1000,
+        autoplay: { delay: 3000, disableOnInteraction: false },
+        slidesPerView: 6,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        spaceBetween: 30,
+        breakpoints: {
+          0: { slidesPerView: 1 },
+          576: { slidesPerView: 2 },
+          768: { slidesPerView: 3 },
+          992: { slidesPerView: 4 },
+          1200: { slidesPerView: 6 }
+        }
       });
     }
   }
