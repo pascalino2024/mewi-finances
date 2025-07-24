@@ -46,7 +46,7 @@
   --heading-font-family: "Lato", sans-serif;
   --body-color: #485b60;
   --body-bg-color: #fdfbf7;
-  --body-bg-color-two: #f4ffff;
+  --body-bg-color-two: #fff;
   --heading-color: #030917;
   --border-color: #e4e3e1;
   --white-color: #ffffff;
@@ -820,7 +820,7 @@ kbd {
 
 .ak-secondary-bg,
 .ak-secondary-bg-hover:hover {
-  background-color: #063232 !important;
+  background-color: #2e0175 !important;
 }
 
 .ak-primary-two-bg,
@@ -2281,7 +2281,7 @@ kbd {
   9. Footer
 ----------------------------------------------------------------*/
 .footer-bg {
-  background-color: #030917;
+  background-color: #2e0175;
 }
 .footer-bg .ak-footer-container {
   position: relative;
@@ -2629,7 +2629,7 @@ kbd {
   padding: 5px 5px;
 }
 .common-btn.style-2.color-3 {
-  background-color: #9fe970;
+  background-color: #eb850b;
 }
 .common-btn.style-2.color-3::before {
   background-color: var(--black-color);
@@ -3431,7 +3431,7 @@ kbd {
 
 .service-bg {
   position: relative;
-  background-color: #063232;
+  background-color: #2e0175;
   z-index: 10;
 }
 .service-bg .ak-white-bg-service {
@@ -5633,3 +5633,7 @@ kbd {
     font-size: 90px;
   }
 }/*# sourceMappingURL=style.css.map */
+
+.btn-white{
+  color:#fff;
+}
